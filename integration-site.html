@@ -1,0 +1,25 @@
+<!-- Vidéo qui démarre toute seule, en boucle, sur une page web.
+     "muted" est obligatoire : sans lui, Chrome, Safari et Firefox bloquent le démarrage automatique.
+     "playsinline" est obligatoire sur iPhone, sinon la vidéo ne démarre pas dans la page. -->
+<video
+  src="/pub-artisan-relance-15s.mp4"
+  autoplay
+  muted
+  loop
+  playsinline
+  preload="auto"
+  style="width:100%;max-width:405px;aspect-ratio:9/16;border-radius:16px;display:block;margin:0 auto"
+></video>
+
+<!-- Version React / Next.js (artisan-relance) : placer le fichier MP4 dans le dossier public/ -->
+<!--
+<video
+  src="/pub-artisan-relance-15s.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+  style={{ width: "100%", maxWidth: 405, aspectRatio: "9 / 16", borderRadius: 16, display: "block", margin: "0 auto" }}
+/>
+-->
